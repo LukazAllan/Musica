@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="720px"
+   height="720px"
+   viewBox="0 0 720 720"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="música_1_2.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.46235269"
+     inkscape:cx="191.41232"
+     inkscape:cy="235.75076"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs9">
+    <rect
+       x="188.87678"
+       y="243.16929"
+       width="43.58695"
+       height="138.40768"
+       id="rect14093" />
+    <rect
+       x="185.81805"
+       y="236.28714"
+       width="87.173898"
+       height="109.34971"
+       id="rect4809" />
+    <rect
+       x="188.87679"
+       y="243.1693"
+       width="43.586948"
+       height="138.40768"
+       id="rect14093-7" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;stroke-width:1.22489"
+       id="rect110-3"
+       width="21.198795"
+       height="447.61804"
+       x="437.15268"
+       y="62.015011" />
+    <ellipse
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.952553"
+       id="path64-7"
+       ry="71.077904"
+       rx="129.79443"
+       cy="604.2691"
+       cx="177.31573"
+       transform="rotate(-15.50199)" />
+    <ellipse
+       style="fill:#f9f9f9;fill-rule:evenodd;stroke-width:0.630579"
+       id="path64-01-2"
+       ry="46.346066"
+       rx="87.232483"
+       cy="631.28204"
+       cx="6.1694007"
+       transform="matrix(0.8788643,-0.47707183,0.52238795,0.85270794,0,0)" />
+    <text
+       xml:space="preserve"
+       id="text4807"
+       style="font-style:normal;font-weight:normal;font-size:93.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4809);fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(30.881383,-34.763916)" />
+  </g>
+</svg>

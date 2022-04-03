@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>música</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <img src="img/bass-clef.png" class="navbar-brand" style="width: 18px;" href="#" />
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Whois</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Testes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="scale_mode.html">Modos de Escalas</a></li>
+                  <li><a class="dropdown-item" href="#">Tônica da Escala</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <img id="escala" src="img/escala_C_ionico.svg" style="display: block;max-width: 100%; height: auto;margin-left: auto;margin-right: auto;">
+    <div id="resposta"></div>
+    <div id="piano">
+        <div class="container" style="margin: auto; width: 100%; \*border: 5px solid #FFFF00;*\ padding: 10px;">
+            <button type="button" onclick="check(0)" class="btn btn-light btn-sm" style="display: inline-block;font-size: 65%;">A</button>
+            <button type="button" onclick="check(1)" class="btn btn-dark btn-sm" style="display: inline-block;font-size: 65%;">Bb</button>
+            <button type="button" onclick="check(2)" class="btn btn-light btn-sm" style="display: inline-block;font-size: 65%;">B</button>
+            <button type="button" onclick="check(3)" class="btn btn-light btn-sm" style="display: inline-block;font-size: 65%;">C</button>
+            <button type="button" onclick="check(4)" class="btn btn-dark btn-sm" style="display: inline-block;font-size: 65%;">C#</button>
+            <button type="button" onclick="check(5)" class="btn btn-light btn-sm" style="display: inline-block;font-size: 65%;">D</button>
+            <button type="button" onclick="check(6)" class="btn btn-dark btn-sm" style="display: inline-block;font-size: 65%;">Eb</button>
+            <button type="button" onclick="check(7)" class="btn btn-light btn-sm" style="display: inline-block;font-size: 65%;">E</button>
+            <button type="button" onclick="check(8)" class="btn btn-light btn-sm" style="display: inline-block;font-size: 65%;">F</button>
+            <button type="button" onclick="check(9)" class="btn btn-dark btn-sm" style="display: inline-block;font-size: 65%;">F#</button>
+            <button type="button" onclick="check(10)" class="btn btn-light btn-sm" style="display: inline-block;font-size: 65%;">G</button>
+            <button type="button" onclick="check(11)" class="btn btn-dark btn-sm" style="display: inline-block;font-size: 65%;">G#</button>
+        </div>
+    </div>
+    <div id="botaoproximo"></div>
+    
+    <audio id="audio" src="sound/escalas/C__ionico.wav" autoplay></audio>
+    <script>
+      let escalas = [
+          "A",
+          "Bb",
+          "B",
+          "C",
+          "Cs",
+          "D",
+          "Eb",
+          "E",
+          "F",
+          "Fs",
+          "G",
+          "Gs"
+      ]
+      let questao = 3;
+      let Audio = document.getElementById('audio');
+      function check(arg){
+        Audio.pause();
+        if (arg == questao){
+          document.body.style = "background-color: green";
+          document.getElementById("botaoproximo").innerHTML = "<button type=\"button\" onclick=\"next()\" class=\"btn btn-primary btn-sm\" style=\"display: inline-block;font-size: 65%;\">Próximo</button>";
+        } else {
+          document.body.style = "background-color: red";
+          document.getElementById("botaoproximo").innerHTML = "";
+        }
+      }
+      function next() {
+        questao = Math.floor(Math.random() * (escalas.length - 0)) + 0;
+        document.getElementById('escala').setAttribute("src", `img/escala_${escalas[questao]}_ionico.svg`);
+        document.body.style = "";
+        
+        Audio.setAttribute("src", `sound/escalas/${escalas[questao]}_ionico.wav`);
+        Audio.play();
+      }
+    </script>
+</body>
+</html>

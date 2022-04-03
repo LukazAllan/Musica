@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="720px"
+   height="720px"
+   viewBox="0 0 720 720"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="música_3_1-2.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.46235269"
+     inkscape:cx="191.41232"
+     inkscape:cy="272.51923"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs9">
+    <rect
+       x="188.87678"
+       y="243.16929"
+       width="43.58695"
+       height="138.40768"
+       id="rect14093" />
+    <rect
+       x="185.81805"
+       y="236.28714"
+       width="87.173898"
+       height="109.34971"
+       id="rect4809" />
+    <rect
+       x="188.87679"
+       y="243.1693"
+       width="43.586948"
+       height="138.40768"
+       id="rect14093-7" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       id="text4807"
+       style="font-style:normal;font-weight:normal;font-size:93.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4809);fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(30.881383,-34.763916)" />
+    <rect
+       style="fill:#000000;stroke-width:1.34343"
+       id="rect110-3-3-2"
+       width="23.25036"
+       height="490.93738"
+       x="399.4472"
+       y="51.596558" />
+    <ellipse
+       style="fill:#000000;fill-rule:evenodd;stroke-width:1.04474"
+       id="path64-0-70"
+       ry="77.956642"
+       rx="142.35559"
+       cy="627.51715"
+       cx="121.99191"
+       transform="rotate(-15.50199)" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:6.43015px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 424.43875,54.850147 c 0,0 3.95074,35.061269 15.60177,49.668013 29.9959,37.60555 107.24783,47.31898 131.39145,87.2093 23.42003,38.69492 0.86351,127.41225 0.86351,127.41225 v 0 c 0,0 56.39125,-168.22631 -154.75316,-142.31199 z"
+       id="path24587"
+       sodipodi:nodetypes="caacccc" />
+  </g>
+</svg>
